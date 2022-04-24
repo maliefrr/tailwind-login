@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>My Website | Login</title>
+</head>
+<body class="bg-gradient-to-r from-sky-500 to-gray-400">
+    <h2 class="text-center text-2xl mt-12 sm:text-4xl text-slate-700 font-semibold">My Website</h2>
+    <div class="shadow-lg p-4 mt-8 bg-slate-100/30 backdrop-blur-md max-w-sm mx-auto">
+        <h3 class="text-center font-semibold text-slate-600 mb-3"><i class="bi bi-person-fill"></i> Login</h3>
+        <hr class="mb-3 mx-16">
+        <form action="#"> 
+            <label for="username" class="sm:mb-8">
+                <div class="text-slate-800 mb-2 text-sm">Email</div>
+                <input type="email" class="border rounded shadow-lg py-1 px-3 focus:ring-1 focus:border-sky-600 focus:ring-sky-500 focus:outline-none w-full placeholder:text-sm invalid:text-red-500 invalid:focus:border-red-500 invalid:focus:ring-red-500 peer" placeholder="Email" id="username">
+                <p class="text-sm text-red-500 invisible peer-invalid:visible mt-1 mb-2">Email tidak valid</p>
+            </label>
+            <label for="password" class="sm:mb-8">
+                <div class="text-slate-800 mb-2 text-sm">Password</div>
+                <input type="password" class="border rounded shadow-lg py-1 px-3 focus:ring-1 focus:border-sky-600 focus:ring-sky-500 focus:outline-none w-full placeholder:text-sm" placeholder="Password" id="password">
+            </label>
+            <button class="mx-auto block mt-5 bg-orange-500 px-4 py-1 rounded-md text-white hover:bg-orange-600 active:bg-orange-700 sm:mt-10">Login</button>
+        </form>
+    </div>
+</body>
+</html>
